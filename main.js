@@ -77,7 +77,7 @@ function renderProducts(productList) {
         productPrice.innerText = '$' + product.price;
     
         const productName = document.createElement('p');
-        productPrice.innerText = product.name;
+        productName.innerText = product.name;
     
         productInfoDiv.appendChild(productPrice);
         productInfoDiv.appendChild(productName);
